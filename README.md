@@ -5,12 +5,12 @@
 ## Indice
 
 1. [Indice](#Indice)
-2. [Pre-requisitos](#Pre-requisitos 📋)
+2. [Pre-requisitos](#Pre-requisitos)
 
 
 
 
-## Pre-requisitos 📋
+## Pre-requisitos
 
 _Que cosas necesitas para instalar el software y como instalarlas_
 
