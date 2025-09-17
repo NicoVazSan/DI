@@ -11,6 +11,10 @@
 4. [Instalacion](#Instalacion)
 5. [Pruebas](#Ejecutando-las-pruebas)
 6. [Tecnologias utilizadas](#Tecnologias)
+7. [Contribuidores](#Contribuidores)
+8. [Desarrollador Principal](#Desarrollador-Principal)
+9. [Wiki](#Wiki)
+10. [Licencia](#licencia)
 
 
 ## Descripcion
@@ -92,39 +96,23 @@ Y que no tenga bugs para terminar en cualquier otro momento del mismo.
 
 [SurfaceView](https://www.surfaceview.co.uk/#:~:text=Effective%2030/04/2024%20Surface,commitment%20to%20quality%20and%20creativity.) para la animación
 
+## Contribuidores
 
-
-
-## Contribuyendo 🖇️
+Este programa esta hecho por la empresa .Gears.
 
 Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
-## Wiki 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+## Desarrollador Principal
 
-## Versionado 📌
+Este proyecto fue iniciado por Nguyen Hà Đông, encargado de la direccion del mismo durante todo su desarrollo.
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+## Wiki 
 
-## Autores ✒️
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://wikiindie.fandom.com/es/wiki/Flappy_Bird)
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+## Licencia 
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+Este proyecto está bajo la Licencia (Licencia Privada Flappy Bird) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
 
