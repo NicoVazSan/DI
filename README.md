@@ -5,7 +5,7 @@
 ## Indice
 
 1. [Indice](#Indice)
-2. [Pre-requisitos](##Pre-requisitos 📋)
+2. [Pre-requisitos](#Pre-requisitos 📋)
 
 
 
