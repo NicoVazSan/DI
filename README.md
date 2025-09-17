@@ -1,16 +1,31 @@
 # Flappy Bird
 ![Imagen insertada](https://user-images.githubusercontent.com/73842931/203234278-72dc4c28-0542-475e-8b0a-a64993b7f79b.png)
 
+![Estado](https://img.shields.io/badge/estado-finalizado-red)
 
 ## Indice
 
-1. [Indice](#Indice)
-2. [Pre-requisitos](#Pre-requisitos)
-3. [Instalacion](#Instalacion)
-4. [Pruebas](#Ejecutando-las-pruebas)
+1. [Desripcion](#Descripcion)
+2. [Indice](#Indice)
+3. [Pre-requisitos](#Pre-requisitos)
+4. [Instalacion](#Instalacion)
+5. [Pruebas](#Ejecutando-las-pruebas)
+6. [Tecnologias utilizadas](#Tecnologias)
 
 
+## Descripcion
+El objetivo del juego es guiar a un pájaro a través de tuberías sin chocar contra ellas.
+El jugador controla el pájaro tocando la pantalla para hacerlo volar más alto y debe evitar que caiga al suelo o toque las tuberías.
 
+✅ Jugabilidad sencilla: toca para saltar.
+
+✅ Dificultad progresiva: las tuberías se mueven más rápido a medida que avanza el juego.
+
+✅ Detección de colisiones: si el pájaro toca una tubería o el suelo → Game Over.
+
+✅ Sistema de puntuación: suma un punto por cada tubería superada.
+
+✅ Pantalla de reinicio para volver a jugar.
 
 ## Pre-requisitos
 
@@ -28,23 +43,57 @@ Dentro de los archivos subidos a GitHub existe una carpeta llamada Tests que den
 
 ## Y las pruebas de estilo de codificación ⌨️
 
-_Explica que verifican estas pruebas y por qué_
+Algunas de las pruebas que nos podemos encontrar dentro de esos archivos son del estilo:
 
+```java
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class GameEngineTest {
+
+    @Test
+    public void birdCollisionWithPipe_triggersGameOver() {
+        // Crear pájaro y tubería que se superponen
+        Bird bird = new Bird(50, 100, 30, 30);
+        Pipe pipe = new Pipe(60, 110, 50, 200);
+
+        GameEngine engine = new GameEngine();
+        engine.checkCollision(bird, pipe);
+
+        // Verificar que el juego terminó
+        assertTrue(engine.isGameOver());
+    }
+
+    @Test
+    public void birdWithoutCollision_noGameOver() {
+        // Crear pájaro y tubería que NO se tocan
+        Bird bird = new Bird(0, 0, 30, 30);
+        Pipe pipe = new Pipe(200, 200, 50, 200);
+
+        GameEngine engine = new GameEngine();
+        engine.checkCollision(bird, pipe);
+
+        // Verificar que el juego sigue
+        assertFalse(engine.isGameOver());
+    }
+}
 ```
-Da un ejemplo
-```
 
-## Despliegue 📦
+Estos test de ejemplo prueban si el juego se termina correctamente y unicamente en el momento que un jugador falle.
 
-_Agrega notas adicionales sobre como hacer deploy_
+Y que no tenga bugs para terminar en cualquier otro momento del mismo.
 
-## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+## Tecnologias
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+[Android Studio](https://developer.android.com/studio?hl=es-419)
+
+[Java](https://www.java.com/es/)
+
+[SurfaceView](https://www.surfaceview.co.uk/#:~:text=Effective%2030/04/2024%20Surface,commitment%20to%20quality%20and%20creativity.) para la animación
+
+
+
 
 ## Contribuyendo 🖇️
 
