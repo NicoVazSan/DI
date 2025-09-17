@@ -7,7 +7,7 @@
 1. [Indice](#Indice)
 2. [Pre-requisitos](#Pre-requisitos)
 3. [Instalacion](#Instalacion)
-4. [Pruebas](#Ejecutando)
+4. [Pruebas](#Ejecutando-las-pruebas)
 
 
 
@@ -22,7 +22,7 @@ Su instalacion es realmente sencilla, ya que no hace falta configurar nada, para
 Tambien existe la posibilidad de que tengamos el archivo de otra manera, en ese caso simplemente ejecutamos el codigo y ya lo tendriamos.
 
 
-## Ejecutando las pruebas ⚙️
+## Ejecutando las pruebas
 
 Dentro de los archivos subidos a GitHub existe una carpeta llamada Tests que dentro contienen diferentes Tests relacionados con diferentes temas, en caso de fallo y de no ser capaces de solucionar el/los errores se recomienda reinstalar el programa.
 
