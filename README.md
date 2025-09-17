@@ -2,11 +2,11 @@
 ![Imagen insertada](https://user-images.githubusercontent.com/73842931/203234278-72dc4c28-0542-475e-8b0a-a64993b7f79b.png)
 
 
-## Comenzando 🚀
+## Indice
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+1. [Indice](#Indice)
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+
 
 
 ### Pre-requisitos 📋
