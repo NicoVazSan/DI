@@ -1,5 +1,5 @@
 # Flappy Bird
-![Imagen insertada](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fmoha-b%2FFlappy-Bird&psig=AOvVaw1_1-RL8PRqB9lcgPn84MeA&ust=1758181017893000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOCgpOqk348DFQAAAAAdAAAAABAE)
+![Imagen insertada](https://user-images.githubusercontent.com/73842931/203234278-72dc4c28-0542-475e-8b0a-a64993b7f79b.png)
 
 
 ## Comenzando 🚀
