@@ -6,49 +6,27 @@
 
 1. [Indice](#Indice)
 2. [Pre-requisitos](#Pre-requisitos)
+3. [Instalacion](#Instalacion)
+4. [Pruebas](#Ejecutando)
 
 
 
 
 ## Pre-requisitos
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Para instalar esta aplicacion, hace falta tener instalado el sistema operativo al que va orientado, se recomienda el uso de android, aunque existen diferentes opciones.
 
-```
-Da un ejemplo
-```
+## Instalación
+Su instalacion es realmente sencilla, ya que no hace falta configurar nada, para hacerlo nos basta con ir a la tienda de aplicaciones de nuestro dispositivo, buscarla y descargarla desde ahi.
 
-### Instalación 🔧
+Tambien existe la posibilidad de que tengamos el archivo de otra manera, en ese caso simplemente ejecutamos el codigo y ya lo tendriamos.
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+Dentro de los archivos subidos a GitHub existe una carpeta llamada Tests que dentro contienen diferentes Tests relacionados con diferentes temas, en caso de fallo y de no ser capaces de solucionar el/los errores se recomienda reinstalar el programa.
 
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
+## Y las pruebas de estilo de codificación ⌨️
 
 _Explica que verifican estas pruebas y por qué_
 
