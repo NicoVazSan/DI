@@ -1,0 +1,6 @@
+0. Investiga qué es if __name__ == “__main__”. Piensa si necesitarás usarlo en los
+ejercicios a continuación.
+
+El if __name__ == “__main__” sirve para que lo que escribas dentro el el solo se ejecute si ejecutas directamente el archivo donde está escrito, no si lo importas a otro archivo, permitiendote hacer diferentes codigos segun donde se ejecute.
+
+En estos ejercicios no es necesario utilizarlo, solamente sería necesario si quisiéramos meterle mas codigo a operaciones.py y que no se ejecutara al importarlo a calculadora.py

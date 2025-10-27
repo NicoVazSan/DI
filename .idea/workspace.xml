@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fd76cc0-9753-4986-adfe-94fdb4bae28c" name="Changes" comment="" />
+    <list default="true" id="6fd76cc0-9753-4986-adfe-94fdb4bae28c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sprint0python/pregunta_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +54,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nico\Desktop\Programacion\Desarrollo_De_Interfaces\sprint0python" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="sprint0python" type="PythonConfigurationType" factoryName="Python">
       <module name="Desarrollo_De_Interfaces" />
@@ -67,7 +75,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sprint0python.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Nico\Desktop\Programacion\Desarrollo_De_Interfaces\sprint0python\operaciones.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761578842190</updated>
       <workItem from="1761578843485" duration="1695000" />
-      <workItem from="1761580573751" duration="464000" />
+      <workItem from="1761580573751" duration="786000" />
     </task>
     <servers />
   </component>
