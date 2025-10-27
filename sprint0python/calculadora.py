@@ -1,4 +1,4 @@
-import sprint0python
+import operaciones
 
 bucle = 0
 
@@ -16,13 +16,13 @@ while bucle == 0:
     """))
 
     if opc == 1:
-        print(sprint0python.suma(num1, num2))
+        print(operaciones.suma(num1, num2))
     elif opc == 2:
-        print(sprint0python.resta(num1, num2))
+        print(operaciones.resta(num1, num2))
     elif opc == 3:
-        print(sprint0python.multiplicacion(num1, num2))
+        print(operaciones.multiplicacion(num1, num2))
     elif opc == 4:
-        print(sprint0python.division(num1, num2))
+        print(operaciones.division(num1, num2))
 
 
 
