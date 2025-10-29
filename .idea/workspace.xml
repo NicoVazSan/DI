@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fd76cc0-9753-4986-adfe-94fdb4bae28c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sprint1tkinter/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
     "Python.frame.executor": "Run",
     "Python.label.executor": "Run",
     "Python.listbox.executor": "Run",
+    "Python.menu.executor": "Run",
     "Python.radiobutton.executor": "Run",
     "Python.sprint0python.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -110,7 +111,7 @@
       <updated>1761578842190</updated>
       <workItem from="1761578843485" duration="1695000" />
       <workItem from="1761580573751" duration="2982000" />
-      <workItem from="1761724379938" duration="860000" />
+      <workItem from="1761724379938" duration="1576000" />
     </task>
     <servers />
   </component>
@@ -126,6 +127,7 @@
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$radiobutton.coverage" NAME="radiobutton Coverage Results" MODIFIED="1761583377119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$checkbutton.coverage" NAME="checkbutton Coverage Results" MODIFIED="1761583201071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$frame.coverage" NAME="frame Coverage Results" MODIFIED="1761725035053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
+    <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$menu.coverage" NAME="menu Coverage Results" MODIFIED="1761725438590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$entry.coverage" NAME="entry Coverage Results" MODIFIED="1761582600001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$sprint0python.coverage" NAME="sprint0python Coverage Results" MODIFIED="1761580783440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
