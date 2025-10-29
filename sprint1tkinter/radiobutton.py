@@ -2,7 +2,7 @@ import tkinter as tk
 
 def cambiar_color():
     color = var_color.get()
-    root.config(var_color.set(color))
+    root.config(bg=color)
     etiqueta.config(text=f"Color seleccionado: {color.capitalize()}")
 
 root = tk.Tk()
