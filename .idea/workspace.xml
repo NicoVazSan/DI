@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fd76cc0-9753-4986-adfe-94fdb4bae28c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sprint1tkinter/scale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprint1tkinter/registro_usuarios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     "Python.listbox.executor": "Run",
     "Python.menu.executor": "Run",
     "Python.radiobutton.executor": "Run",
+    "Python.registro_usuarios.executor": "Run",
     "Python.scale.executor": "Run",
     "Python.scrollbar.executor": "Run",
     "Python.sprint0python.executor": "Run",
@@ -113,7 +115,7 @@
       <updated>1761578842190</updated>
       <workItem from="1761578843485" duration="1695000" />
       <workItem from="1761580573751" duration="2982000" />
-      <workItem from="1761724379938" duration="1924000" />
+      <workItem from="1761724379938" duration="4203000" />
     </task>
     <servers />
   </component>
@@ -131,8 +133,9 @@
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$scale.coverage" NAME="scale Coverage Results" MODIFIED="1761726316136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$label.coverage" NAME="label Coverage Results" MODIFIED="1761582254272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$listbox.coverage" NAME="listbox Coverage Results" MODIFIED="1761724569655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
+    <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$registro_usuarios.coverage" NAME="registro_usuarios Coverage Results" MODIFIED="1761728611525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$calculadora.coverage" NAME="calculadora Coverage Results" MODIFIED="1761581469274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint0python" />
-    <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$canvas.coverage" NAME="canvas Coverage Results" MODIFIED="1761724811740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
+    <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$canvas.coverage" NAME="canvas Coverage Results" MODIFIED="1761728187168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$sprint0python.coverage" NAME="sprint0python Coverage Results" MODIFIED="1761580783440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
