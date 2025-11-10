@@ -1,31 +1,36 @@
 package com.example.mycatalog;
-
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+import androidx.fragment.app.Fragment;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        Button btnNavegar = findViewById(R.id.btnNavegarDetalle);
 
-        btnNavegar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Detail_activity.class);
-                startActivity(intent);
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
+        bottomNav.setOnItemSelectedListener(item -> {
+            Fragment selectedFragment = null;
+
+            if (item.getItemId() == R.id.nav_catalog) {
+                selectedFragment = new CatalogFragment();
+            } else if (item.getItemId() == R.id.nav_about) {
+                selectedFragment = new AboutFragment();
             }
+
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, selectedFragment)
+                    .commit();
+
+            return true;
         });
+
+        // Fragment inicial
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fragment_container, new CatalogFragment())
+                .commit();
     }
 }
