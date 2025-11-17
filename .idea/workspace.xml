@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fd76cc0-9753-4986-adfe-94fdb4bae28c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Desarrollo_De_Interfaces.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/.idea/registro_usuarios_ctk.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/controller/app_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/model/usuario_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/view/main_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprint3android/app/src/main/res/drawable/outline_accessibility_new_24.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/view/AddUserView.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprint3android/app/src/main/java/com/example/mycatalog/Detail_activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/sprint3android/app/src/main/java/com/example/mycatalog/Detail_activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprint3android/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sprint3android/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro_usuarios_ctk/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro_usuarios_ctk/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro_usuarios_ctk/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro_usuarios_ctk/controller/app_controller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro_usuarios_ctk/model/usuario_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro_usuarios_ctk/view/main_view.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
+    "Python.app_controller.executor": "Run",
     "Python.boton.executor": "Run",
     "Python.calculadora.executor": "Run",
     "Python.canvas.executor": "Run",
@@ -58,6 +59,7 @@
     "Python.juego.executor": "Run",
     "Python.label.executor": "Run",
     "Python.listbox.executor": "Run",
+    "Python.main_view.executor": "Run",
     "Python.menu.executor": "Run",
     "Python.radiobutton.executor": "Run",
     "Python.registro_usuarios.executor": "Run",
@@ -65,12 +67,14 @@
     "Python.scale.executor": "Run",
     "Python.scrollbar.executor": "Run",
     "Python.sprint0python.executor": "Run",
+    "Python.usuario_model.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
@@ -85,7 +89,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -120,6 +124,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -158,5 +169,13 @@
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$canvas.coverage" NAME="canvas Coverage Results" MODIFIED="1761731174924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$calculadora.coverage" NAME="calculadora Coverage Results" MODIFIED="1761731425089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint0python" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$sprint0python.coverage" NAME="sprint0python Coverage Results" MODIFIED="1761580783440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
