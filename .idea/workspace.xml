@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fd76cc0-9753-4986-adfe-94fdb4bae28c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Desarrollo_De_Interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/.idea/registro_usuarios_ctk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/controller/app_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/model/usuario_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registro_usuarios_ctk/view/main_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprint3android/app/src/main/res/drawable/outline_accessibility_new_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint3android/app/src/main/java/com/example/mycatalog/Detail_activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/sprint3android/app/src/main/java/com/example/mycatalog/Detail_activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint3android/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sprint3android/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +55,7 @@
     "Python.clases.executor": "Run",
     "Python.entry.executor": "Run",
     "Python.frame.executor": "Run",
+    "Python.juego.executor": "Run",
     "Python.label.executor": "Run",
     "Python.listbox.executor": "Run",
     "Python.menu.executor": "Run",
@@ -51,13 +66,19 @@
     "Python.scrollbar.executor": "Run",
     "Python.sprint0python.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Nico/Desktop/Programacion/Desarrollo_De_Interfaces",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -100,14 +121,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
-        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6fd76cc0-9753-4986-adfe-94fdb4bae28c" name="Changes" comment="" />
@@ -117,7 +130,9 @@
       <updated>1761578842190</updated>
       <workItem from="1761578843485" duration="1695000" />
       <workItem from="1761580573751" duration="2982000" />
-      <workItem from="1761724379938" duration="7285000" />
+      <workItem from="1761724379938" duration="7613000" />
+      <workItem from="1761821444658" duration="25000" />
+      <workItem from="1762345676700" duration="50000" />
     </task>
     <servers />
   </component>
@@ -135,6 +150,7 @@
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$entry.coverage" NAME="entry Coverage Results" MODIFIED="1761731132926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$scale.coverage" NAME="scale Coverage Results" MODIFIED="1761731218712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$canvas_raton.coverage" NAME="canvas_raton Coverage Results" MODIFIED="1761731264436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
+    <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$juego.coverage" NAME="juego Coverage Results" MODIFIED="1761731871786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Opcional" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$label.coverage" NAME="label Coverage Results" MODIFIED="1761731117241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$listbox.coverage" NAME="listbox Coverage Results" MODIFIED="1761731164766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
     <SUITE FILE_PATH="coverage/Desarrollo_De_Interfaces$registroapp.coverage" NAME="registroapp Coverage Results" MODIFIED="1761731280728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sprint1tkinter" />
