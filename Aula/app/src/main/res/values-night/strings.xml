@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="aula_home">Aula+ (Home)</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="entrar">Entrar</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="aula_login">Aula+ — Login</string>
+    <string name="reg_strate">Regístrate</string>
+    <string name="crea_un_aviso">Crea un aviso para que se muestre aquí</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="borrar_ltimo">Borrar último</string>
+    <string name="a_adir_aviso">Añadir aviso</string>
+    <string name="materia">Materia (DI, SI, DWES...)</string>
+    <string name="titulo_del_aviso">Título del aviso</string>
+    <string name="lista_de_avisos">Lista de avisos</string>
+    <string name="boton_de_cerrar_sesion">Boton de Cerrar Sesion</string>
+    <string name="boton_de_a_adir">Boton de añadir</string>
+    <string name="boton_de_borrar">Boton de borrar</string>
+    <string name="escribir_materia">Escribir Materia</string>
+    <string name="escribir_aviso">Escribir Aviso</string>
+    <string name="cambiar_modo_dia_y_noche">Cambiar modo dia y noche</string>
+    <string name="indicador_de_carga">Indicador de Carga</string>
+    <string name="boton_registrarse">boton registrarse</string>
+    <string name="boton_login">Boton login</string>
+    <string name="escribir_contrase_a">Escribir contraseña</string>
+    <string name="escribir_email">Escribir Email</string>
 </resources>
