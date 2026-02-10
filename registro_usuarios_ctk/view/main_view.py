@@ -1,6 +1,4 @@
-import customtkinter as ctk
-
-# python
+import tkinter
 import customtkinter as ctk
 
 class MainView(ctk.CTk):
@@ -9,6 +7,12 @@ class MainView(ctk.CTk):
 
         self.title("Registro de Usuarios (CTk + MVC) - Fase 2")
         self.geometry("900x500")
+
+
+        self.menubar = tkinter.Menu(self)
+        self.config(menu=self.menubar)
+        self.menu_archivo = tkinter.Menu(self.menubar, tearoff=0)
+        self.menubar.add_cascade(label="Archivo", menu=self.menu_archivo)
 
 
         self.grid_columnconfigure(0, weight=1)
@@ -26,7 +30,6 @@ class MainView(ctk.CTk):
         self.lista_usuarios_scrollable = ctk.CTkScrollableFrame(self.frame_lista)
         self.lista_usuarios_scrollable.grid(row=1, column=0, sticky="nsew", padx=10, pady=10)
 
-
         self.btn_add = ctk.CTkButton(self.frame_lista, text="Añadir Usuario")
         self.btn_add.grid(row=2, column=0, padx=10, pady=10, sticky="w")
 
@@ -37,10 +40,8 @@ class MainView(ctk.CTk):
         titulo_detalles = ctk.CTkLabel(self.frame_detalles, text="Detalles del Usuario", font=("Arial", 20))
         titulo_detalles.grid(row=0, column=0, padx=10, pady=10)
 
-
         self.avatar_label = ctk.CTkLabel(self.frame_detalles, text="")
         self.avatar_label.grid(row=1, column=0, padx=10, pady=10)
-
 
         self.lbl_nombre = ctk.CTkLabel(self.frame_detalles, text="Nombre: -", anchor="w")
         self.lbl_nombre.grid(row=2, column=0, padx=10, pady=5, sticky="w")
@@ -54,12 +55,9 @@ class MainView(ctk.CTk):
         self.lbl_avatar = ctk.CTkLabel(self.frame_detalles, text="Avatar: -", anchor="w")
         self.lbl_avatar.grid(row=5, column=0, padx=10, pady=5, sticky="w")
 
-
     def actualizar_lista_usuarios(self, usuarios, on_seleccionar_callback):
-
         for widget in self.lista_usuarios_scrollable.winfo_children():
             widget.destroy()
-
 
         for i, usuario in enumerate(usuarios):
             btn = ctk.CTkButton(
@@ -69,13 +67,9 @@ class MainView(ctk.CTk):
             )
             btn.pack(fill="x", padx=5, pady=5)
 
-
-
     def mostrar_detalles_usuario(self, usuario, image=None):
-
         if image:
             self.avatar_label.configure(image=image, text="")
-
             self.avatar_label.image = image
         else:
             self.avatar_label.configure(image="", text="")

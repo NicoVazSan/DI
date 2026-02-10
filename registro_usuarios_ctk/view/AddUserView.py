@@ -1,4 +1,3 @@
-# python
 import customtkinter as ctk
 
 class AddUserView:
@@ -28,18 +27,10 @@ class AddUserView:
 
         ctk.CTkLabel(self.window, text="Avatar:").pack(pady=(10, 2))
         self.avatar_var = ctk.StringVar(value="-")
-        ctk.CTkRadioButton(self.window, text="Avatar 1", variable=self.avatar_var, value="avatar1.png").pack(anchor="w", padx=30)
-        ctk.CTkRadioButton(self.window, text="Avatar 2", variable=self.avatar_var, value="avatar2.png").pack(anchor="w", padx=30)
+        ctk.CTkRadioButton(self.window, text="Avatar 1", variable=self.avatar_var, value="Avatar1.png").pack(anchor="w", padx=30)
+        ctk.CTkRadioButton(self.window, text="Avatar 2", variable=self.avatar_var, value="Avatar2.png").pack(anchor="w", padx=30)
         ctk.CTkRadioButton(self.window, text="Avatar 3", variable=self.avatar_var, value="avatar3.png").pack(anchor="w", padx=30)
 
-        ctk.CTkLabel(self.window, text="Avatar:").pack(pady=(10, 2))
-        self.avatar_var = ctk.StringVar(value="-")
-        ctk.CTkRadioButton(self.window, text="Avatar 1", variable=self.avatar_var, value="Avatar1.png").pack(anchor="w",
-                                                                                                             padx=30)
-        ctk.CTkRadioButton(self.window, text="Avatar 2", variable=self.avatar_var, value="Avatar2.png").pack(anchor="w",
-                                                                                                             padx=30)
-        ctk.CTkRadioButton(self.window, text="Avatar 3", variable=self.avatar_var, value="avatar3.png").pack(anchor="w",
-                                                                                                             padx=30)
 
         self.guardar_button = ctk.CTkButton(self.window, text="Guardar")
         self.guardar_button.pack(pady=(15, 5), padx=20, fill="x")

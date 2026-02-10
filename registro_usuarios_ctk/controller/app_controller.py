@@ -8,11 +8,8 @@ from registro_usuarios_ctk.view.main_view import MainView
 
 class AppController:
     def __init__(self):
-
         self.BASE_DIR = Path(__file__).resolve().parent.parent
         self.ASSETS_PATH = self.BASE_DIR / "assets"
-
-
         self.avatar_images = {}
 
         self.modelo = GestorUsuarios()
@@ -21,6 +18,13 @@ class AppController:
         if hasattr(self.vista, "btn_add"):
             self.vista.btn_add.configure(command=self.abrir_ventana_añadir)
 
+        if hasattr(self.vista, "menu_archivo"):
+            self.vista.menu_archivo.add_command(label="Cargar", command=self.cargar_usuarios)
+            self.vista.menu_archivo.add_command(label="Guardar", command=self.guardar_usuarios)
+            self.vista.menu_archivo.add_separator()
+            self.vista.menu_archivo.add_command(label="Salir", command=self.vista.destroy)
+
+        self.cargar_usuarios()
 
         self._preload_avatar_images()
 
@@ -30,7 +34,6 @@ class AppController:
         self.vista.mainloop()
 
     def _find_asset_file(self, filename):
-
         candidate = self.ASSETS_PATH / filename
         if candidate.exists():
             return candidate
@@ -50,10 +53,10 @@ class AppController:
                 photo = ImageTk.PhotoImage(img)
                 self.avatar_images[index] = photo
             except Exception:
-
                 pass
 
     def _preload_avatar_images(self):
+        self.avatar_images.clear()
         for idx, usuario in enumerate(self.modelo.listar()):
             if usuario.avatar and usuario.avatar != "-":
                 self._load_avatar_for_index(idx, usuario.avatar)
@@ -76,7 +79,6 @@ class AppController:
 
     def añadir_usuario(self, add_view):
         data = add_view.get_data()
-
         try:
             edad = int(data["edad"])
         except Exception:
@@ -91,9 +93,24 @@ class AppController:
         self.modelo._usuarios.append(usuario)
         index = len(self.modelo._usuarios) - 1
 
-
         if avatar_filename != "-":
             self._load_avatar_for_index(index, avatar_filename)
 
         self.refrescar_lista_usuarios()
         add_view.window.destroy()
+
+    def guardar_usuarios(self):
+        ok = self.modelo.guardar_csv()
+        if ok:
+            messagebox.showinfo("Guardar", "Usuarios guardados correctamente.")
+        else:
+            messagebox.showerror("Guardar", "Error al guardar usuarios.")
+
+    def cargar_usuarios(self):
+        ok = self.modelo.cargar_csv()
+        if ok:
+            self._preload_avatar_images()
+            self.refrescar_lista_usuarios()
+            messagebox.showinfo("Cargar", "Usuarios cargados correctamente.")
+        else:
+            return
