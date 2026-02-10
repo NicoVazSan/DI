@@ -37,32 +37,10 @@ public class HomeFragment extends Fragment {
 
         MaterialButton btnAdd = view.findViewById(R.id.btnAdd);
         MaterialButton btnDeleteLast = view.findViewById(R.id.btnDeleteLast);
-        MaterialButton btnLogout = view.findViewById(R.id.btnLogout);
+        MaterialButton btnProfile = view.findViewById(R.id.btnProfile);
 
         TextView tvList = view.findViewById(R.id.tvList);
 
-        MaterialSwitch switchDark = view.findViewById(R.id.switchDarkMode);
-
-        SettingsViewModelFactory settingsFactory = new SettingsViewModelFactory(requireContext());
-        SettingsViewModel settingsVm = new ViewModelProvider(this, settingsFactory)
-                .get(SettingsViewModel.class);
-
-
-        settingsVm.getDarkMode().observe(getViewLifecycleOwner(), enabled -> {
-            if (enabled == null) return;
-
-            if (switchDark.isChecked() != enabled) {
-                switchDark.setChecked(enabled);
-            }
-
-            AppCompatDelegate.setDefaultNightMode(
-                    enabled ? AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO
-            );
-        });
-
-        switchDark.setOnCheckedChangeListener((buttonView, isChecked) -> {
-            settingsVm.setDarkMode(isChecked);
-        });
 
         InMemoryNoticeRepository repo = InMemoryNoticeRepository.getInstance();
         NoticeViewModelFactory noticeFactory = new NoticeViewModelFactory(repo);
@@ -99,10 +77,9 @@ public class HomeFragment extends Fragment {
 
         btnDeleteLast.setOnClickListener(v -> noticeVm.deleteLast());
 
-        btnLogout.setOnClickListener(v -> {
-            FirebaseAuth.getInstance().signOut();
+        btnProfile.setOnClickListener(v -> {;
             NavHostFragment.findNavController(this)
-                    .navigate(R.id.action_home_to_authGate);
+                    .navigate(R.id.action_homeFragment_to_ProfileFragment);
         });
     }
 }

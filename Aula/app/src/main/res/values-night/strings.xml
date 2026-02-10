@@ -25,4 +25,6 @@
     <string name="boton_login">Boton login</string>
     <string name="escribir_contrase_a">Escribir contraseña</string>
     <string name="escribir_email">Escribir Email</string>
+    <string name="mi_perfil">Mi perfil</string>
+    <string name="perfil">Perfil</string>
 </resources>

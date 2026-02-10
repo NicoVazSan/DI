@@ -11,8 +11,11 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.aula.R;
+import com.example.aula.data.AuthRepository;
 import com.example.aula.data.InMemoryNoticeRepository;
-import com.example.aula.viewmodel.NoticeViewModel;
+import com.example.aula.viewmodel.AuthViewModel;
+import com.example.aula.viewmodel.AuthViewModelFactory;
+import com.example.aula.viewmodel.ProfileViewModel;
 import com.example.aula.viewmodel.NoticeViewModelFactory;
 import com.example.aula.viewmodel.SettingsViewModel;
 import com.example.aula.viewmodel.SettingsViewModelFactory;
@@ -30,15 +33,15 @@ public class ProfileFragment extends Fragment {
         super(R.layout.fragment_profile);
     }
 
+    private AuthViewModel vm;
+
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
 
 
-
-
         MaterialButton btnLogout = view.findViewById(R.id.btnLogout);
 
-        TextView tvList = view.findViewById(R.id.tvList);
+        TextView UID = view.findViewById(R.id.UID);
 
 
         MaterialSwitch switchDark = view.findViewById(R.id.switchDarkMode);
@@ -64,28 +67,16 @@ public class ProfileFragment extends Fragment {
             settingsVm.setDarkMode(isChecked);
         });
 
-        InMemoryNoticeRepository repo = InMemoryNoticeRepository.getInstance();
-        NoticeViewModelFactory noticeFactory = new NoticeViewModelFactory(repo);
-        NoticeViewModel noticeVm = new ViewModelProvider(this, noticeFactory)
-                .get(NoticeViewModel.class);
+        AuthRepository repo = new AuthRepository();
+        AuthViewModelFactory factory = new AuthViewModelFactory(repo);
+        vm = new ViewModelProvider(requireActivity(), factory).get(AuthViewModel.class);
 
-        noticeVm.getListado().observe(getViewLifecycleOwner(), tvList::setText);
-
-        noticeVm.getError().observe(getViewLifecycleOwner(), err -> {
-            if (err != null) Snackbar.make(view, err, Snackbar.LENGTH_LONG).show();
-        });
-
-        noticeVm.getEventoToast().observe(getViewLifecycleOwner(), msg -> {
-            if (msg != null) {
-                Snackbar.make(view, msg, Snackbar.LENGTH_SHORT).show();
-                noticeVm.consumirEventoToast();
-            }
-        });
+        UID.append(vm.getUID());
 
         btnLogout.setOnClickListener(v -> {
             FirebaseAuth.getInstance().signOut();
             NavHostFragment.findNavController(this)
-                    .navigate(R.id.action_home_to_authGate);
+                    .navigate(R.id.action_ProfileFragment_to_loginFragment);
         });
     }
 }

@@ -24,6 +24,10 @@ public class AuthViewModel extends ViewModel {
 
     public void consumeNavEvent() { _navEvent.setValue(null); }
 
+    public String getUID() {
+        return repo.getUID();
+    }
+
     public void login(String email, String pass) {
         _errorMessage.setValue(null);
         _loading.setValue(true);
