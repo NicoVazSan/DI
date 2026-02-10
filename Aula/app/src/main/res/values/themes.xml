@@ -1,5 +1,5 @@
 <resources>
-    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Theme.AulaPlus" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/md_theme_primary</item>
         <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
@@ -47,9 +47,7 @@
         <item name="colorSurfaceContainerHigh">@color/md_theme_surfaceContainerHigh</item>
         <item name="colorSurfaceContainerHighest">@color/md_theme_surfaceContainerHighest</item>
     </style>
-
-
-    <style name="AppTheme.Splash"
+    <style name="Theme.AulaPlus.Splash"
         parent="Theme.SplashScreen">
 
         <!-- Color de fondo del splash -->
@@ -59,14 +57,13 @@
 
         <!-- Icono del splash -->
         <item name="windowSplashScreenAnimatedIcon">
-            @drawable/icono_splash
+            @drawable/nuevoicono
         </item>
 
         <!-- Tema que se aplicará tras el splash -->
         <item name="postSplashScreenTheme">
-            @style/AppTheme
+            @style/Theme.AulaPlus
         </item>
 
     </style>
-
 </resources>
